@@ -15,7 +15,7 @@ services:
       - COMPOSER_HOME=/composer
       - COMPOSER_ALLOW_SUPERUSER=1
       - APP_ENV=local
-      #- APP_KEY=base64:V9lMOMKFhL7IdZ9/3KcjtT24SIqRw+Oz7ObmYy9YvJQ=
+      - APP_KEY=base64:aoxRfgDM0eF8JdgYqqVM9OGg1IYkVLaQPbgToGrq0qY=
     depends_on:
       - db
       - redis
